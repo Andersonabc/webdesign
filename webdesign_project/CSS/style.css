@@ -84,20 +84,6 @@ p {
 	padding-bottom: 40px;
 }
 
-@media (max-width: 1200px){
-	.advertisement img {
-		height: 350px;
-		width: 550px;
-	}
-	.brand_logo{
-		padding-top: 20px;
-		padding-bottom: 20px;
-		height: 157 !important;
-		width: 60 !important;
-	}
-}
-
-
 .shop_pic{
 	height: 350px !important;
 	width: 550px !important;
