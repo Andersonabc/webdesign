@@ -70,7 +70,7 @@ p {
 }
 .advertisement img {
 	height: 350px;
-	width: 610px;
+	width: 100%;
 }
 .advertisement .card {
 	background-color: #ffffff;
@@ -78,36 +78,79 @@ p {
 	margin-bottom: 10px;
 	border-style:none;
 }
+.shop_pic{
+	height: 350px ;
+	width: 550px ;
+	padding: 10px;
+}
+.shop_pic_2{
+	height: 250px ;
+	width: 350px ;
+	padding: 10px;
+}
 
 .brand_logo{
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+@media (max-width: 334px){
+	.disspear{
+		display: none;
+	}
+	.nopadding{
+		padding-right: 100px !important;
+	}
+	.shoplogo{
+		height: 80x !important;
+		width: 115px !important;
+	}
+	.brand_logo{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		padding-left: 40px !important;
+	}
+	.footer_button{
+		padding-right: 55px !important;
+	}
+	.advertisement img {
+		height: 250px !important;
+		width: 100% !important;
+	}
+	.current{
+		padding-left: 30px !important;
+	}
+	.showpic{
+		height: 250px !important;
+		width: 100px !important;
+	}
+	.shop_pic{
+		height: 250px ;
+		width: 300px ;
+		padding: 10px;
+	}
+	.shop_pic_2{
+		height: 250px ;
+		width: 300px ;
+		padding: 10px;
+	}
+}
+
 
 @media (max-width: 1200px){
 	.advertisement img {
 		height: 350px;
-		width: 550px;
+		width: 100%;
 	}
 	.brand_logo{
 		padding-top: 20px;
 		padding-bottom: 20px;
 		height: 157 !important;
-		width: 60 !important;
+		width: 100% !important;
 	}
 }
 
 
-.shop_pic{
-	height: 350px !important;
-	width: 550px !important;
-	padding: 10px;
-}
-.shop_pic_2{
-	height: 250px !important;
-	width: 350px !important;
-	padding: 10px;
-}
+
 
 .product img {
 	width:100%;
@@ -130,6 +173,7 @@ footer p {
 }
 .footer_button{
 	padding: 0;
+	padding-right: 45px;
 }
 .footer_button_inner{
 	width: 120px !important;
@@ -159,3 +203,4 @@ footer p {
 .footer_icon_inner{
 	padding: 4px;
 }
+
